@@ -1,5 +1,5 @@
 ---
-title: Arthur's file
+title: Arthur'sfile
 layout: template
 filename: Arthurfile.md
 ---
