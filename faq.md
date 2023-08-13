@@ -4,7 +4,7 @@ layout: template
 filename: faq.md
 --- 
 
-# [Lexington Volleyball](lexvolleyball.github.io)
+# [Lexington Volleyball](https://lexvolleyball.github.io)
 ## About Us
 
 - We're a Volleyball team based in Lexington, Massachusetts that has activities on the weekends.
