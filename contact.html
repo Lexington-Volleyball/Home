@@ -147,7 +147,7 @@
   /* customize formbutton below*/     
   formbutton("create", {
     action: "https://formspree.io/f/xdoqkzek",
-    title: "How can we help?",
+    title: "Sign Up",
     fields: [
       { 
         type: "email", 
@@ -157,19 +157,19 @@
         placeholder: "your@email.com"
       },
       {
-        type: "textarea",
-        label: "Message:",
-        name: "message",
-        placeholder: "What's on your mind?",
+        type: "textbox",
+        label: "Password:",
+        name: "password",
+        placeholder: "Enter a password",
       },
       { type: "submit" }      
     ],
     styles: {
       title: {
-        backgroundColor: "gray"
+        backgroundColor: "green"
       },
       button: {
-        backgroundColor: "gray"
+        backgroundColor: "green"
       }
     }
   });
