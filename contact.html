@@ -140,39 +140,41 @@
                 <h1 class="text-primary mb-5"><span class="fw-light text-dark">If you have any questions,</span> feel free to contact us</h1></div>
             <div class="row g-5">
                 <div class="col-lg-7 wow fadeIn" data-wow-delay="0.1s">
-                    <p class="mb-4">Contact Form Code (for Development Reference) <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                    <div class="wow fadeIn" data-wow-delay="0.3s">
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                        <label for="name">Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                        <label for="email">Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
+                    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  /* paste this line in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  /* customize formbutton below*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/xdoqkzek",
+    title: "How can we help?",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "gray"
+      },
+      button: {
+        backgroundColor: "gray"
+      }
+    }
+  });
+</script>
+
                     </div>
                 </div>
                 <div class="col-lg-5 wow fadeIn" data-wow-delay="0.5s">
@@ -217,14 +219,13 @@
                     <a href="index.html" class="d-inline-block mb-3">
                         <h1 class="text-primary">Lexington Volleyball</h1>
                     </a>
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non
-                        malesuada consequat, nibh erat tempus risus, vitae porttitor purus nisl vitae purus.</p>
+                    <p class="mb-0">A club of sports enthusiasts seeking to bring the community together.</p>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
                     <h5 class="mb-4">Get In Touch</h5>
-                    <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>Poplar Street Recreation Area, Lexington, MA 02421</p>
+                    <p><i class="fa fa-phone-alt me-3"></i></p>
+                    <p><i class="fa fa-envelope me-3"></i></p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -236,12 +237,12 @@
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <h5 class="mb-4">Popular Link</h5>
+                    <h5 class="mb-4">Menu</h5>
                     <a class="btn btn-link" href="">About Us</a>
                     <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Privacy Policy</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Career</a>
+                    <a class="btn btn-link" href="">Calendar</a>
+                    <a class="btn btn-link" href="">What to bring</a>
+                    <a class="btn btn-link" href="">WeChat</a>
                 </div>
             </div>
         </div>
